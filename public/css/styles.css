@@ -32,12 +32,11 @@ body {
 .slogan{
   position: relative;
   margin-left: 100px;
-  font-family: 'Lustria', serif;
+  font-family: 'Oxygen', serif;
   font-size: 30px;
   padding-bottom: 25px;
   vertical-align: middle;
   color: #005A31;
-
 }
 
 .filter{
@@ -67,7 +66,8 @@ body {
 }
 
 h3 {
-   margin: 0;
+  margin: 0;
+  color: black;
 }
 
 .communication > li{
@@ -83,7 +83,7 @@ h3 {
   width: 60%;
 /*  display: inline-block;*/
   border: 5px solid black;
-  height: 1000px;
+  height: 1050px;
   margin-left: 40px;
   width: 69%;
   background-color: #F3FAB6;
@@ -121,6 +121,7 @@ h2 {
 
 h3 {
   color: #AB9353;
+  font-size: 30px;
 }
 
 .person-outer .self {
@@ -132,16 +133,15 @@ h3 {
 }
 
 .videoIcon, .calenderIcon, .mailIcon {
-  color: #005A31;
+  float: right;
+  padding-right: 70px;
 }
-
 
 img {
   width: 45px;
   height: 45px;
   margin-left: 10px;
 }
-
 
 table {
   width: 100%;
@@ -171,7 +171,7 @@ tbody {
 .person-img {
   display: inline-block;
   width: 200px;
-  height: 100%;
+  height: 225px;
 }
 
 .person-top{
@@ -226,4 +226,20 @@ tbody {
 .button-top, .button-bottom, .button-left, .button-right {
   width: 5px;
   height: 5px;
+}
+
+.input_message{
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  font-size: 18px;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.input_button {
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #AB9353;
+    font-size: 18px;
 }
