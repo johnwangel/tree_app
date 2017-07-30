@@ -1,0 +1,39 @@
+<ul id="org" style="display:none">
+{{#each relations}}
+  {{#if isSelf}}
+    <li class = "person">
+      <div class="person-outer">
+        <div class="person-top"></div>
+        <div class="person-middle">
+          <div class="person-left"></div>
+          <div class="person-photo">
+           <img class="person-img" src="/images/{{url}}" alt="{{name}} image">
+            <p class="personName">{{name}}</p>
+          </div>
+          <div class="person-right"></div>
+        </div>
+        <div class="person-bottom"></div>
+      </div>
+
+    <ul>
+  {{/if}}
+  {{#if isChild}}
+    <li class = "person">
+      <div class="person-outer">
+        <div class="person-top"></div>
+        <div class="person-middle">
+          <div class="person-left"></div>
+          <div class="person-photo">
+           <img  class="person-img" src="/images/{{url}}" alt="{{name}} image">
+            <p class="personName">{{name}}</p>
+            <p class="relation">{{relation}}</p>
+          </div>
+          <div class="person-right"></div>
+        </div>
+        <div class="person-bottom"></div>
+      </div>
+    </li>
+  {{/if}}
+
+{{/each}}
+</ul></li></ul>

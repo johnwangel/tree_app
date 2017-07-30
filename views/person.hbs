@@ -1,0 +1,53 @@
+<ul id="org" style="display:none">
+
+  {{#each relations}}
+
+    <li class = "person">
+      <div class="person-outer">
+        <div class="person-top"></div>
+        <div class="person-middle">
+          <div class="person-left"></div>
+          <div class="person-photo">
+           <img src="/images/{{photo_url}}" alt="{{fname}} {{lname}} image">
+            <p class="personName">{{fname}} {{lname}}</p>
+          </div>
+          <div class="person-right"></div>
+        </div>
+        <div class="person-bottom"></div>
+      </div>
+
+    {{/each}}
+
+      <ul>
+        <li>
+          <div class="person-outer">
+            <div class="person-top"></div>
+            <div class="person-middle">
+              <div class="person-left"></div>
+              <div class="person-photo">
+               <img src="/images/{{photo_url}}" alt="{{fname}} {{lname}} image">
+                <p>{{fname}} {{lname}}</p>
+              </div>
+              <div class="person-right"></div>
+            </div>
+            <div class="person-bottom"></div>
+          </div>
+        </li>
+
+        <li>
+          <div class="person-outer">
+            <div class="person-top"></div>
+            <div class="person-middle">
+              <div class="person-left"></div>
+              <div class="person-photo">
+               <img src="/images/{{photo_url}}" alt="{{fname}} {{lname}} image">
+                <p>{{fname}} {{lname}}</p>
+              </div>
+              <div class="person-right"></div>
+            </div>
+            <div class="person-bottom"></div>
+          </div>
+        </li>
+      </ul>
+    </li>
+</ul>
