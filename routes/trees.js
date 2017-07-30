@@ -135,8 +135,6 @@ function createRelationsHTML(relObj){
 
 function createSelfItem(relObj){
 
-  console.log(relObj);
-
   let myself = relObj.filter(rel => {
     if(rel.relation === 'self'){
       return rel;
@@ -523,9 +521,5 @@ let familyTree = { "family_members" :
   ]
 
 };
-
-// (function(){
-//   console.log(getRelations(5));
-// })();
 
 module.exports = router;
